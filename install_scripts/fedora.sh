@@ -6,7 +6,8 @@ sudo dnf install cmake gcc-c++ python-empy console-bridge-devel poco-devel boost
 
 sudo dnf install python-rosdep python-rosinstall_generator python-wstool python-rosinstall;
 
-sudo dnf install @Robotics --best --allowerasing;
+sudo dnf install "Robotics" --best --allowerasing;
+sudo dnf install "X Software Development" --best --allowerasing;
 
 mkdir ~/ros_catkin_ws;
 cd ~/ros_catkin_ws;
