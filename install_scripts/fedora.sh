@@ -19,3 +19,5 @@ wstool init -j8 src indigo-desktop-full-wet.rosinstall;
 rosdep install --from-paths src --ignore-src --rosdistro indigo -y;
 
 ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release -DASSIMP_UNIFIED_HEADER_NAMES=ON;
+
+source ~/ros_catkin_ws/install_isolated/setup.bash;
